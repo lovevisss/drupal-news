@@ -1,0 +1,128 @@
+<center class='white_bg'>
+	<div class="container">
+		<div id="headerH">    
+			{{page.user_account}}
+		
+		</div>  
+
+		<div id="headerM">
+			{{page.logo}}
+			
+		</div>    
+		 <div class="navbar-header">
+        {{ page.navigation }}
+        {# .btn-navbar is used as the toggle for collapsed navbar content #}
+        {% if page.navigation_collapsible %}
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        {% endif %}
+      	</div>   
+		<div id="news">    
+		{{page.latest_and_search}}
+	  </div>
+	</div>
+	<div id="cont">
+		<div id="L">
+			<div class="list">
+				<table width="314" height="226" border="0"
+					background="/themes/news/images/index_10.jpg" cellpadding="0"
+					cellspacing="0">
+			<tr>
+				<td>
+					<table align="center" width="80%" border="0" cellpadding="3"
+						cellspacing="3">
+						<tr>
+							<td height="17">
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td height="70" class="font" valign="bottom"><br>
+								欢迎{{user.name}}来到浙江财经大学东方学院信息门户首页！
+							</td>
+						</tr>
+						<tr>
+							<td class="font">
+							<iframe width="300" scrolling="no" height="68" frameborder="0" allowtransparency="true" 
+							src="http://i.tianqi.com/index.php?c=code&id=2&icon=1&num=1"></iframe>
+							
+				
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<div class="list">
+			{{page.department}}
+		
+		</div>
+		<div class="list back">
+			{{page.academy}}
+			
+
+		</div>
+ </div>
+		<div id="M">    
+			<div class="list">      
+				{{page.notice}}
+
+		    </div>
+			<div class="list">      
+				{{page.xwfw}} 
+			</div>        
+			<div class="list">      
+				{{page.system}}
+				<div class="js_t">
+          			<div class="js_ti"><span class="js_te">业务系统</span></div>
+       			</div>
+	       		<div class="list_block_system">
+					<div class="fl">
+						<ul>
+						<li ><a href="http://stu.zufedfc.edu.cn//default.jsp" class="icon-bubble">  学工系统</a></li>
+						<li ><a href="http://oa.zufedfc.edu.cn/" class="icon-pencil">  OA系统</a></li>
+						<li ><a href="http://libsearch.zufedfc.edu.cn/opac/search.php" class="icon-book-open">  图书检索系统</a></li>
+						<li ><a href="ftp://lc.zufedfc.edu.cn/" class="icon-docs">  作业服务器</a></li>
+						<li ><a href="http://zc.zufedfc.edu.cn/" class="icon-diamond">  资产管理系统</a></li>
+						<li ><a href="http://gzl.zufedfc.edu.cn:8086/" class="icon-graduation">  教学工作量系统</a></li>
+					</ul>
+					</div>
+					<div class="fl">
+						<ul>
+							<li ><a href="http://rsgl.zufedfc.edu.cn:8080/" class="icon-user-following">  人事管理系统</a></li>
+							<li ><a href="http://10.1.12.35/" class="icon-badge">  教务管理系统</a></li>
+							<li ><a href="http://10.1.12.25/" class="icon-credit-card">  一卡通查询</a></li>
+							<li ><a href="http://cwgl.zufedfc.edu.cn/" class="icon-calculator">  财务管理平台</a></li>
+							<li ><a href="http://mail.zufedfc.edu.cn/" class="icon-envelope">  电子邮件</a></li>
+							<li ><a href="http://wlkt.zufedfc.edu.cn/" class="icon-cloud-download">  网络课堂</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>  
+
+		</div>
+		<div id="R">    
+			<div class="list">     
+				{{page.communicate}}
+			</div>
+			 <div class="list">
+			 	{{page.conference}}
+			
+
+			  </div>  
+			
+			  <div class="listcc">
+			  {{page.services}}
+			  
+			 </div>
+	</div>
+</div>
+<div id="foot">  版权所有：浙江财经大学东方学院<br>
+Copyright © 2017 zufedfc.edu.cn All Rights Reserved</div>
+</center>

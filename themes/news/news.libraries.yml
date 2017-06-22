@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/index.css: {}
+      css/nav.css: {}
+      css/simple-line-icons.css: {}
+  js:
+    js/jquery.min.js: {}
