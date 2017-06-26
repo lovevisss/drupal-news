@@ -99,6 +99,9 @@ class EntityUser extends EntityContentBase {
       if (isset($this->configuration['md5_passwords'])) {
         $entity->pass->value = 'U' . $this->password->hash($entity->pass->value);
       }
+      elseif (isset($this->configuration['plaintext_passwords'])) {
+         $entity->pass->value = $this->password->hash($entity->pass->value);
+      }
     }
     return parent::save($entity, $old_destination_id_values);
   }

@@ -109,6 +109,7 @@ li a:hover{
 .fl{
 	float:left;
 	margin-left: 10px;
+	margin-left: 9px\0;
 }
 
 .list h4{
@@ -232,7 +233,7 @@ li a:hover{
 }
 
 .service_block{
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .service_text{
