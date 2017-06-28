@@ -6,6 +6,11 @@ ul{
 	margin:0px;
 	padding: 0px;
 }
+
+h3{
+	text-align: left;
+}
+
 #headerH ul{
 	float: right;
 	
@@ -92,6 +97,10 @@ li a:hover{
     float: left;
     margin-left: 90px;
     text-align: left;
+}
+
+.search-advanced{
+	margin-top: 30px;
 }
 
 .navbar-header{
